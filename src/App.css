@@ -1,7 +1,25 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.card {
+  background-color: var(--White);
+  display: grid;
+  gap: 20px;
+  width: 27rem;
+  padding: 20px;
+  border-radius: 20px;
   text-align: center;
 }
 
+.img-container {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.card h1 {
+  font-size: 2rem;
+  color: var(--Slate-900);
+}
+
+.card p {
+  font-size: 1rem;
+  color: var(--Slate-500);
+}
